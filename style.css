@@ -1,0 +1,38 @@
+body {
+        height: 100vh;
+        background-image: url('solcitizen.png');
+        background-repeat : no-repeat;
+        background-size : cover;
+        
+        
+      }
+
+  .mint {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 30px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  position: absolute;
+  left: 63%;
+  top: 43%;
+}
+
+.mint:hover {
+  text-decoration: none;
+  box-shadow:200px 0 0 0 rgba(202, 202, 202, 0.5) inset;
+}
+.mint:active{
+  box-shadow:200px 0 0 0 rgba(107, 107, 107, 0.5) inset;
+  }
+
